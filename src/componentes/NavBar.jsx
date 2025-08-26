@@ -5,7 +5,7 @@ import logo from '../assets/img/logo-emmamesadas.ico'; // Ajustá la ruta si est
 const NavBar = () => {
   return (
     <nav>
-      <div style={{ display: 'flex', alignItems: 'center', gap: '1rem' }}>
+      <div>
         <img src={logo} alt="Logo Emma Mesadas" className="logo" />
       </div>
       <div>
