@@ -1,0 +1,69 @@
+/* Reset básico */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Tipografía y fondo general */
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background-color: #EAE6F2;
+  color: #3E3E3E;
+}
+
+/* Barra de navegación */
+
+.logo {
+    height: 180px;
+    object-fit: contain;
+}
+
+nav {
+  background-color: #C7D4E2;
+  padding: 1rem 2rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+}
+
+nav h1 {
+  font-size: 2.5rem;
+  color: #3E3E3E;
+}
+
+nav a {
+  text-decoration: none;
+  color: #3E3E3E;
+  margin: 0 1rem;
+  font-weight: 500;
+  font-size: 1.4rem;
+  transition: background-color 0.3s ease;
+}
+
+nav a:hover {
+  background-color: #D9A89C;
+  padding: 0.3rem 0.6rem;
+  border-radius: 4px;
+}
+
+/* Widget del carrito */
+.cart-widget {
+  font-size: 1.2rem;
+  color: #3E3E3E;
+  background-color: #FFF9C4;
+  padding: 0.3rem 0.6rem;
+  border-radius: 6px;
+}
+
+/* Contenedor principal */
+.item-list-container {
+  background-color: #C9D8C5;
+  margin: 2rem auto;
+  padding: 2rem;
+  max-width: 800px;
+  border-radius: 8px;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+  text-align: center;
+}
